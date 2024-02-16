@@ -18,7 +18,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 # Step 1: Import your data and perform basic data exploration
 # Assuming your data is in a CSV file named 'your_dataset.csv'
-df = pd.read_csv('your_dataset.csv')
+df = pd.read_csv('Electric_cars_dataset.csv')
 
 # Step 2: Display general information about the dataset
 print(df.info())
